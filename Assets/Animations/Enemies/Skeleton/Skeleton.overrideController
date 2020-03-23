@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Skeleton
+  m_Controller: {fileID: 9100000, guid: a8936d61c8f2dfa4db3f42f76b36265b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3ab4375d62bf8284fbfd258f2574785c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b438e012d16354c43813f7177330279a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 35294a8d7108ef941ab345896171cd3f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a9b6e32efa827b14aac458348037bab3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d3a7fde2a6b574941a9bd3094a7853ab, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 098b6ae3970f7434cafc4533edb60a9f, type: 2}

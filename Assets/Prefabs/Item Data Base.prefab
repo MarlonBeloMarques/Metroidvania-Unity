@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1866339892708522}
+  m_IsPrefabAsset: 1
+--- !u!1 &1866339892708522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4397121231041846}
+  - component: {fileID: 114219062717020772}
+  m_Layer: 0
+  m_Name: Item Data Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4397121231041846
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866339892708522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114219062717020772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866339892708522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131a68b141edd2848a31d2e674526757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons:
+  - {fileID: 11400000, guid: 4d8e602cd5e6a5e439528ebe6dbafa9c, type: 2}
+  - {fileID: 11400000, guid: 36c4f5664d6a11844a3bf08969a2c022, type: 2}
+  consumableItems:
+  - {fileID: 11400000, guid: 1bceb9f249d5707468a7fe87801fba76, type: 2}
+  - {fileID: 11400000, guid: f80948e68f45ee54da6ae409ef7ea97f, type: 2}
+  - {fileID: 11400000, guid: a2cdaf96219c21344b6c570194aad7c2, type: 2}
+  armors:
+  - {fileID: 11400000, guid: 10210d48d1c33c040925d5e077b40602, type: 2}
+  keys:
+  - {fileID: 11400000, guid: beecda474f20faa44815b83c6c849df6, type: 2}
+  - {fileID: 11400000, guid: e19c26e9880ed104db9910a494610648, type: 2}

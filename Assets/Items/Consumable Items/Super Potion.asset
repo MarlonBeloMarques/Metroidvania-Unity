@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a638c600bb9e4dc4babd360d276b5002, type: 3}
+  m_Name: Super Potion
+  m_EditorClassIdentifier: 
+  itemID: 3
+  itemName: "Super Po\xE7\xE3o"
+  description: "Algu\xE9m teve a brilhante ideia de misturar a po\xE7\xE3o de cura
+    e mana"
+  image: {fileID: 21300000, guid: a3a39e3162b2f7b4e8b89435945d943a, type: 3}
+  healthGain: 100
+  manaGain: 100
+  message: "Pegou super po\xE7\xE3o"
